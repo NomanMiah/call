@@ -64,7 +64,7 @@ try {
 			$nomor = trim(fgets(STDIN));
 
 			if (substr($nomor, 0, 2) !== "880") {
-				throw new Exception("\e[91m[!]\e[0m Nomor awalan harus 62 gan!!\n");
+				throw new Exception("\e[91m[!]\e[0m Nomor awalan harus 880 gan!!\n");
 				exit(0);
 			}
 			echo "\e[96m[*] \e[0mLooping : ";
