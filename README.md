@@ -23,7 +23,7 @@ cd call
 ```
 Now you can run Mail-Attack 
 ``` bash
-php s-call.
+php s-call.php
 ```
 ## Note
 You need to enable lesssecure apps on Gmail, Yahoo, Hotmail/Outlook.
